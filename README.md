@@ -1,10 +1,10 @@
 # NeoakaDarkman/snappymail
 
-![](https://i.goopics.net/nI.png)
+![](https://snappymail.eu/static/img/logo-256x256.png)
 
 ### What is this ?
 
-Simple, modern, lightweight & fast web-based email client. More details on the [official website](https://github.com/the-djmaze/snappymail).
+Simple, modern, lightweight & fast web-based email client. More details on the [official website](https://snappymail.eu/).
 
 ### Features
 

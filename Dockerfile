@@ -1,6 +1,6 @@
 FROM alpine:3.20
 
-LABEL description "Snappymail is a simple, modern & fast web-based client" \
+LABEL description="Snappymail is a simple, modern & fast web-based client" \
       maintainer="NeoakaDarkman <developer@fantasia-wmc.com>" \
       former_maintainer="Hardware <contact@meshup.net>"
 
@@ -34,6 +34,8 @@ RUN echo "@community https://nl.alpinelinux.org/alpine/v3.20/community" >> /etc/
     php${PHP_VERSION}-sqlite3@community \
     php${PHP_VERSION}-ldap@community \
     php${PHP_VERSION}-simplexml@community \
+	php${PHP_VERSION}-mbstring@community \
+	php${PHP_VERSION}-fileinfo@community \
  && cd /tmp \
  && wget -q https://github.com/the-djmaze/snappymail/releases/download/v${SNAPPY_VERSION}/snappymail-${SNAPPY_VERSION}.zip \
  && wget -q https://github.com/the-djmaze/snappymail/releases/download/v${SNAPPY_VERSION}/snappymail-${SNAPPY_VERSION}.zip.asc \
